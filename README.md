@@ -4,31 +4,31 @@ OSM is a stack-based language. A stack is a type of storage system which follows
 
 OSM's language instruction:
 
-- PUSH <number>
+- PUSH **number**  
 Takes a number and pushes it to the top of the stack.
 
-- POP
+- POP  
 Removes a number from the top of the stack and return it.
 
-- GET_INPUT
+- GET_INPUT  
 Gets an integer as an input from the user and pushes it onto the stack.
 
-- ADD
+- ADD  
 Remove two numbers from the top of the stack, then adds them and pushes the sum.
 
-- SUBTRACT 
+- SUBTRACT  
 Remove two numbers from the top of the stack, then subtracts them pushes the difference.
 
-- PRINT 
+- PRINT  **string_literal**    
 Takes a string_literal and prints it out on the terminal screen.
 
-- READ 
+- READ  
 Reads a number from the I/O input and pushes it to the top of the stack.
 
-- JUMP_IF_ZERO <label>
+- JUMP_IF_ZERO **label**  
 Jumps to the label if the top of the stack is 0.
 
-- JUMP_GT_ZERO <label>
+- JUMP_GT_ZERO **label**  
 Jumps to the label if the top of the stack is greater than 0.
 
 - END
