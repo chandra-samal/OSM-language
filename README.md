@@ -31,5 +31,5 @@ Jumps to the label if the top of the stack is 0.
 - JUMP_GT_ZERO **label**  
 Jumps to the label if the top of the stack is greater than 0.
 
-- END
+- END  
 Ends/Exits/Stops the program.
