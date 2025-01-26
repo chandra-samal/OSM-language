@@ -19,7 +19,7 @@ Remove two numbers from the top of the stack, then adds them and pushes the sum.
 - SUBTRACT  
 Remove two numbers from the top of the stack, then subtracts them and pushes the difference.
 
-- PRODUCT
+- PRODUCT  
 Remove two numbers from the top of the stack, then multiply them and pushes the product. 
 
 - PRINT  **string_literal**    
