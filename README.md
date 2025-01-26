@@ -17,7 +17,10 @@ Gets an integer as an input from the user and pushes it onto the stack.
 Remove two numbers from the top of the stack, then adds them and pushes the sum.
 
 - SUBTRACT  
-Remove two numbers from the top of the stack, then subtracts them pushes the difference.
+Remove two numbers from the top of the stack, then subtracts them and pushes the difference.
+
+- PRODUCT
+Remove two numbers from the top of the stack, then multiply them and pushes the product. 
 
 - PRINT  **string_literal**    
 Takes a string_literal and prints it out on the terminal screen.

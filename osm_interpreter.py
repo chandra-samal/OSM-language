@@ -103,6 +103,11 @@ while (program[pc]!="END"):
         a = stack.pop()
         b = stack.pop()
         stack.push(b-a)
+
+    elif (instruction == "PRODUCT"):
+        a = stack.pop()
+        b = stack.pop()
+        stack.push(a*b)
     
     elif (instruction == "PRINT"):
         string_literal = program[pc]
