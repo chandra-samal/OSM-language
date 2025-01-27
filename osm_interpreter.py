@@ -3,6 +3,10 @@ import sys
 # reads the file name 
 file_path = sys.argv[1]
 
+# making sure that the file name ends with the correct extension
+if (file_path.endswith(".osm")!=True):
+    sys.exit()
+
 ###########################
 # Tokenizing the program  #
 ###########################
