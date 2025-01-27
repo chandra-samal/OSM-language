@@ -36,3 +36,32 @@ Jumps to the label if the top of the stack is greater than 0.
 
 - END  
 Ends/Exits/Stops the program.
+
+
+## program1.osm
+Let's see line by line of how the instructions are executing in **program1.osm** file.
+
+**program1.osm** is created in order to check if two integers are equal or not
+
+```bash
+GET_INPUT
+GET_INPUT
+SUBTRACT
+JUMP_IF_ZERO L1
+PRINT "Not Equal"
+END
+
+L1:
+PRINT "Equal"
+END
+```
+
+As you can see, I have ran `GET_INPUT` instruction two times in order to get two integrals input from the user and then push it to the top of the stack.  
+`SUBTRACT` instruction pops the two values from the top of the stack(*which in this case are the input values by the user*) and subtracts them, and pushes the difference to the top of the stack.  
+`JUMP_IF_ZERO` checks if the value at the top of the stack is 0, the value at the top of the stack will be 0 if the difference is 0 (*i.e. the numbers are equal*), If the difference is 0, then the program will jump to label **L1**. 
+
+**If the difference is not equal to 0, the next instructions will execute without jumping to another label, so `PRINT "Not Equal"` will be executed and the user will see "Not Equal" printed on his/her console screen. Afterwards the `END` stops/exits the program**
+
+**If the difference is equal to 0, the instructions below the label *L1* will start executing, so `PRINT "Equal"` will print "Equal" onto the user's console screen, and the next statement `END` will stop/exit the program**
+
+
