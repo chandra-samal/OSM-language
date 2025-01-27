@@ -6,5 +6,5 @@ PRINT "Not Equal"
 END
 
 L1:
-PRINT "Equal"
-END
+    PRINT "Equal"
+    END
