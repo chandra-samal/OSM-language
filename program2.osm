@@ -1,0 +1,15 @@
+GET_INPUT
+GET_INPUT
+PRODUCT
+JUMP_GT_ZERO L1
+JUMP_IF_ZERO L2
+PRINT "Both integers have different sign"
+END
+
+L1:
+    PRINT "Both integers have same sign"
+    END
+
+L2:
+    PRINT "Either both integers are 0, else one of them is 0 and another number can be any integer"
+    END
